@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+body {
+    background-color:#c8c696
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto, sans-serif;
+}
+
+p, li, a, input, button {
+    font-family: Montserrat, sans-serif;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: rgb(202, 168, 168);
+}
+
+nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+}
+
+h1 {
+    padding: 20px;
+    background-image: url(../assets/images/home/backgroundH1.jpg);
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:black;
+    font-size: xx-large;
+}
+
+section {
+    padding: 20px;
+    background: #97bea9;
+    color:#37260c;
+    display: flex;
+}
+
+section img {
+    border-radius: 20%;
+}
+
+iframe{
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+
+article{
+    background-color: #97bea9;
+    border-radius: 30%;
+    padding: 50px;
+    display: flex;
+}
+
+article img {
+    border-radius: 20%;
+}
+
+footer {
+    color:#37260c;
+    display: flex;
+}
+form div {
+    margin: 20px;
+    text-align: left;
+}
+
+.form {
+    background-color:rgb(202, 168, 168);
+}
+
+.contact {
+    width: 100%;
+    display: inline;
+    text-align: end;
+    background-color:rgb(202, 168, 168);
+}
+
+.emprende {
+    display: inline;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(180, 98, 88);
+}
+
+.promos {
+    border-radius: 10%;
+    display: inline;
+    align-items: center;
+}
+
+.plancanje, .naty {
+    border-radius: 20%;
+    text-align: center;
+
+}
+.productos{
+    border-radius: 20%;
+    display: flex;
+}
