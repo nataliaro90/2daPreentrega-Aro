@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <title>Sensaciones Essen</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../assets/images/home/logo.png" width=32 height=32 alt="Logo Favicon">
 </head>
 
@@ -32,56 +33,70 @@
         </nav>
     </header>
 
-    <main class="emprende">
+    <main>
         <h1>¿Te Gustaria Emprender en Essen?</h1>
-        <h2>Formá parte de una gran Red</h2>
-        <p>Somos una gran familia de Emprendedores, encontrarás más que un Emprendimiento sino una Red que te brindará aprendizajes, conocimientos y crecimiento constante.
-        </p>
-        <h2>Capacitaciones para hacer crecer tu Negocio</h2>
-        <p>Te damos todas las herramientas necesarias para que tu emprendimiento crezca cada día más
-        </p>
-        <h2>Reconocimientos</h2>
-        <p>En Essen premiamos a todos nuestros emprendedores que crecen día a día. Vos también podés ganar productos, viajes, eventos ¡y mucho más!
-        </p>
-        <h2>Sin inversión inicial</h2>
-        <p>Queremos que todas las personas que lo deseen puedan ingresar a este emprendimiento, por eso no necesitás una inversión de dinero inicial.
-        </p>
-        <h3>¿Te gustaria saber mas? Escribime y te cuento!!!!</h3>
-    </main>
-    <footer>
-        <section class="form">
-            <h3>¿Queres Sumarte a mi Equipo?</h3>
-            <form>
-                <div>
-                    <label for="nombre">Apellido y Nombre</label>
-                    <input type="text"name=apellido-nombre>
+        <section class="container-center row">
+        <div class="border col-sm-12 col-md-6" bg>
+            <h2>Formá parte de una gran Red</h2>
+            <p>Somos una gran familia de Emprendedores, encontrarás más que un Emprendimiento sino una Red que te brindará aprendizajes, conocimientos y crecimiento constante.
+            </p>
+        </div>
+        <div class="border col-sm-12 col-md-6">
+            <h2>Capacitaciones para hacer crecer tu Negocio</h2>
+            <p>Te damos todas las herramientas necesarias para que tu emprendimiento crezca cada día más
+            </p>
+        </div>
+        <div class="border col-sm-12 col-md-6">
+            <h2>Reconocimientos</h2>
+            <p>En Essen premiamos a todos nuestros emprendedores que crecen día a día. Vos también podés ganar productos, viajes, eventos ¡y mucho más!
+            </p>
+        </div>
+        <div class="border col-sm-12 col-md-6">
+            <h2>Sin inversión inicial</h2>
+            <p>Queremos que todas las personas que lo deseen puedan ingresar a este emprendimiento, por eso no necesitás una inversión de dinero inicial.
+            </p>
+        </div>
+        <h3>¿Te gustaria saber mas? Suscribite y te cuento!!!!</h3>
+        <section>
+            <form class="container-fluid col-sm-12 col-md-6 col-lg-4">
+                <div class="mb-3">
+                    <label class="form-label" for="name">Apellido y Nombre</label>
+                    <input class="form-control" type="text" id="name" name=apellido-nombre >
                 </div>
-                <div>
-                    <label for="telefono">Telefono</label>
-                    <input type="number"name=telefono>
+                <div class="mb-3">
+                    <label class="form-label" for="phone">Telefono</label>
+                    <input class="form-control" type="number" id="phone" name=telefono>
                 </div>
-                <div>
-                    <label for="email">EMail</label>
-                    <input type="email"name=email>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Mail</label>
+                    <input class="form-control" type="email" id="email" name=email>
                 </div>
-                <div>
-                    <label for="porque">Porque te gustaria emprender?</label>
-                    <textarea name="porque" id="porque" cols="20" rows="5"></textarea>
+                <div m-3>
+                    <label for="porque" class="form-label">Porque te gustaria emprender?</label>
+                    <textarea name="porque" id="porque" cols="20" rows="5" class="form-control"></textarea>
                 </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
+                <button class="btn btn-outline-success container-fluid">Enviar</button>
             </form>
         </section>
-        <section class="contact">
-            <img src="../assets/images/contacto/icons-whatsapp-50.png" width=60 height=60 alt="whatsApp">
-            <a class="link" href="http://wa.link/hdotzr">Envianos un Whats App</a>
-            <img src="../assets/images/contacto/icons-instagram-50.png" width=60 height=60 alt="instagram">
-            <a class="link" href="https://www.instagram.com/sensaciones.essen1?igsh=a3hmbnhvbTU5d25m">Seguime en Instagram</a>
-            <img src="../assets/images/contacto/icons-gmail-50.png" width=60 height=60 alt="gmail">
-            <p>¿Queres contactarte por mail? naty87019@gmail.com</p>
+    </main>
+    <footer>
+        <section>
+            <div>
+                <img src="./assets/images/contacto/icons-whatsapp-50.png" width=60 height=60 alt="whatsApp">
+                <a class="link" href="http://wa.link/hdotzr">Envianos un Whats App</a>
+            </div>
+            <div>
+                <img src="./assets/images/contacto/icons-instagram-50.png" width=60 height=60 alt="instagram">
+                <a class="link" href="https://www.instagram.com/sensaciones.essen1?igsh=a3hmbnhvbTU5d25m">Seguime en Instagram</a>
+            </div>
+            <div>
+                <img src="./assets/images/contacto/icons-gmail-50.png" width=60 height=60 alt="gmail">
+                <p class="link">Envianos un mail a naty87019@gmail.com</p>
+            </div>
         </section>
+        <h4>2024 © Sensaciones Essen - Todos los derechos reservados</h4>
     </footer>
 
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
